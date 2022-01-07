@@ -11,10 +11,10 @@ import matplotlib.pyplot as plt
 import util
 import ml
 
-PLOT_DIR = "plots/ericsson/max"
-INPUT_FILENAME = os.path.join("resources", "ERIC.max.csv")
+PLOT_DIR = "plots/ericsson/5y"
+INPUT_FILENAME = os.path.join("resources", "ERIC.5y.csv")
 COMPANY_NAME = "Ericsson"
-UNIT = "SEK"
+UNIT = "USD"
 
 LAGS = 10
 NUM_FEATURES = 1  # univariate time-series
